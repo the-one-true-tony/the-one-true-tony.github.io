@@ -2046,6 +2046,7 @@
 		.image img {
 			border-radius: 0.35em;
 			display: block;
+		  height: 250px;
 		}
 
 		.image.left {
