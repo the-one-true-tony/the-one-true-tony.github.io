@@ -202,14 +202,19 @@ figure.effect-lily:hover p {
 	height: 300px;
 	float: left;
 	box-shadow: grey 0px 10px 21px;
-	background: url(../img/pic01.png);
-	background-size: cover;
-	transition: 0.5s opacity 0.5s ease-out;
-}
-.img1:hover {
 	background: url(../img/gif1.gif);
 	background-size: cover;
-	transition: 0.5s opacity 0.5s ease-out;
+}
+
+.img1 img{
+	width: 450px;
+	height: 300px;
+	opacity: 1;
+	transition: opacity 0.5s ease-out;
+}
+.img1 img:hover {
+	opacity: 0;
+	transition: opacity 0.5s ease-out;
 }
 
 .img2 {
@@ -218,14 +223,19 @@ figure.effect-lily:hover p {
 	height: 300px;
 	float: left;
 	box-shadow: grey 0px 10px 21px;
-	background: url(../img/pic02.png);
-	background-size: cover;
-	transition: 0.5s opacity 0.5s ease-out;
-}
-.img2:hover {
 	background: url(../img/gif2.gif);
 	background-size: cover;
-	transition: 0.5s opacity 0.5s ease-out;
+
+}
+.img2 img{
+	width: 450px;
+	height: 300px;
+	opacity: 1;
+	transition: opacity 0.5s ease-out;
+}
+.img2 img:hover {
+	opacity: 0;
+	transition: opacity 0.5s ease-out;
 }
 
 .feature.right img {
