@@ -407,3 +407,8 @@ figure:hover::before {
 	color: #f05033;
 	transition: .4s;
 }
+
+body:after{
+	display:none;
+	content: url(../img/gif1.gif) url(../img/gif2.gif) url(../img/gif3.gif);
+}
