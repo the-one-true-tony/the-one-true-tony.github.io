@@ -418,14 +418,14 @@ figure:hover::before {
 	transition: .4s;
 }
 
-body:after{
-	display:none;
-	content: url(../img/gif1.gif) url(../img/gif2.gif) url(../img/gif3.gif);
-}
-
 .resume {
 	display: block;
 	font-size: 35px;
 	margin: 20px 0px 0px 0px;
 	font-weight: 500;
+}
+
+body:after{
+	display:none;
+	content: url(../img/gif1.gif) url(../img/gif2.gif) url(../img/gif3.gif);
 }
