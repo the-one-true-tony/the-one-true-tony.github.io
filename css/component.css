@@ -238,6 +238,28 @@ figure.effect-lily:hover p {
 	transition: opacity 0.5s ease-out;
 }
 
+
+.img3 {
+	display: block;
+	width: 450px;
+	height: 300px;
+	float: left;
+	box-shadow: grey 0px 10px 21px;
+	background: url(../img/gif3.gif);
+	background-size: cover;
+
+}
+.img3 img{
+	width: 450px;
+	height: 300px;
+	opacity: 1;
+	transition: opacity 0.5s ease-out;
+}
+.img3 img:hover {
+	opacity: 0;
+	transition: opacity 0.5s ease-out;
+}
+
 .feature.right img {
 	height: 250px;
 	float: right
